@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+}
+
+input, button, textarea {
+  color: #333;
+  background-color: #fff;
+}
+
+body.dark input,
+body.dark button,
+body.dark textarea {
+  color: #f0f0f0;
+  background-color: #444;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.widget {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.widgets-row > * {
+  flex: 1;
+  min-width: 280px;
+  margin-right: 1rem;
+}
+
+.widgets-row > *:last-child {
+  margin-right: 0;
+}
+
+
+body.dark .widget {
+  background: #2c2c3e;
+}
+
+button {
+  cursor: pointer;
+}

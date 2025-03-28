@@ -1,0 +1,23 @@
+.datetime-widget {
+  text-align: center;
+}
+
+.datetime-widget h2 {
+  margin-bottom: 0.5rem;
+}
+
+.datetime-widget .day {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.datetime-widget .date {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.datetime-widget .time {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
