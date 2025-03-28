@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smart-dashboard/static/css/main.dd2cfefd.css",
+    "main.js": "/smart-dashboard/static/js/main.025352ba.js",
+    "index.html": "/smart-dashboard/index.html",
+    "main.dd2cfefd.css.map": "/smart-dashboard/static/css/main.dd2cfefd.css.map",
+    "main.025352ba.js.map": "/smart-dashboard/static/js/main.025352ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd2cfefd.css",
+    "static/js/main.025352ba.js"
+  ]
+}
